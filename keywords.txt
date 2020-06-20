@@ -1,8 +1,12 @@
 
 
 // Datatype keywords
-// Interger datatype
+
+// Interger numbers
 unsigned, char, short, int, long
+
+// Floating numbers
+float, double
 
 // Statement keywords
 return
