@@ -1,7 +1,11 @@
 
 
 // Datatype keywords
-int
+// Interger datatype
+unsigned, char, short, int, long
 
 // Statement keywords
 return
+
+// Operator keywords
+sizeof
