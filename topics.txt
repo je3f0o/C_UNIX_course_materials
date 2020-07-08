@@ -1,0 +1,26 @@
+
+Primitive datatypes
+===================
+
+    Intigere datatypes
+    ------------------
+    - char  1 byte
+    - short 2 byte
+    - int   4 byte
+    - long  8 byte
+
+    Floating point numbers
+    - float
+    - double
+
+    Array
+
+User Defined datatypes
+======================
+
+Operator
+========
+  = Assign Operator
+  sizeof
+    
+

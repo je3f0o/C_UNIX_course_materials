@@ -2,36 +2,17 @@
 #include <stdio.h>
 
 /**
- * Primitive datatypes
- * ===================
+ * ASCII
+ * American Standard Code for Information Interchange
  *
- * Intigere datatypes
- * ------------------
- * - char  1 byte
- * - short 2 byte
- * - int   4 byte
- * - long  8 byte
- *
- * Floating point numbers
- * - float
- * - double
- *
- * User Defined datatypes
- * ======================
- **/
-
-/** Operator
- * = Assign Operator
- * sizeof
  */
 
 int main ()
 {
-    float  fPI = 3.14159265359;
-    double dPI = 3.14159265359;
+    char my_string[] = "Hello world";
 
-    printf("Float  PI: %f, size: %ld bytes.\n", fPI, sizeof fPI);
-    printf("Double PI: %f, size: %ld bytes.\n", dPI, sizeof dPI);
+    printf("%s\n", my_string);
+    printf("my_string size = %ld bytes.\n", sizeof my_string);
 
     return 0;
 }
