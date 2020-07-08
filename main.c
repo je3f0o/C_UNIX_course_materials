@@ -1,18 +1,17 @@
 
 #include <stdio.h>
 
-/**
- * ASCII
- * American Standard Code for Information Interchange
- *
- */
 
 int main ()
 {
-    char my_string[] = "Hello world";
+    int n1 = 100;
+    int n2 = 33;
 
-    printf("%s\n", my_string);
-    printf("my_string size = %ld bytes.\n", sizeof my_string);
+    printf("%d - %d = %d\n", n1, n2, n1 - n2);
+    printf("%d + %d = %d\n", n1, n2, n1 + n2);
+    printf("%d * %d = %d\n", n1, n2, n1 * n2);
+    printf("%d / %d = %d\n", n1, n2, n1 / n2);
+    printf("%d %% %d = %d\n", n1, n2, n1 % n2);
 
     return 0;
 }

@@ -1,4 +1,15 @@
 
+Variable syntax
+===============
+    DATATYPE var_name;
+    DATATYPE var_name [= value];
+
+    Array syntax
+    ------------
+    DATATYPE var_name[length];
+    DATATYPE var_name[] [= value];
+    DATATYPE var_name[] [= { }];
+
 Primitive datatypes
 ===================
 
@@ -20,7 +31,16 @@ User Defined datatypes
 
 Operator
 ========
-  = Assign Operator
-  sizeof
-    
+    = Assign Operator
+    sizeof
+
+    Arithmatic Math operators
+    -------------------------
+    + plus
+    - subtruct
+    * multiply
+    / division
+    % modules
+
+
 
