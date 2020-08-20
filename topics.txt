@@ -42,5 +42,15 @@ Operator
     / division
     % modules
 
+    Pointer operators
+    -----------------
+    DATATYPE * - pointer
+    & var      - address
+    * var      - dereference
+    var[index] - subscript
+
+
+
+
 
 

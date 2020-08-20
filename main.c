@@ -1,17 +1,27 @@
 
 #include <stdio.h>
 
+void swap (int * ptr_a, int * ptr_b) {
+    const int temp = *ptr_a;
+    *ptr_a = *ptr_b;
+    *ptr_b = temp;
+}
 
-int main ()
+int main (void)
 {
-    int n1 = 100;
-    int n2 = 33;
+    int array[2] = {333, 666};
 
-    printf("%d - %d = %d\n", n1, n2, n1 - n2);
-    printf("%d + %d = %d\n", n1, n2, n1 + n2);
-    printf("%d * %d = %d\n", n1, n2, n1 * n2);
-    printf("%d / %d = %d\n", n1, n2, n1 / n2);
-    printf("%d %% %d = %d\n", n1, n2, n1 % n2);
+    printf("a = %d\nb = %d\n", array[0], array[1]);
+    printf("--------------\n");
+    swap(&(array[0]), &(array[1]));
+    printf("a = %d\nb = %d\n", array[0], array[1]);
 
     return 0;
 }
+
+
+
+
+
+
+

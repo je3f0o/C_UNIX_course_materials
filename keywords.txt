@@ -1,6 +1,7 @@
 
 
-// Datatype keywords
+# Datatype keywords
+===================
 
 // Interger numbers
 unsigned, char, short, int, long
@@ -8,8 +9,13 @@ unsigned, char, short, int, long
 // Floating numbers
 float, double
 
-// Statement keywords
-return
+// void
+void
 
-// Operator keywords
+# Statement keywords
+====================
+return, const
+
+# Operator keywords
+===================
 sizeof
