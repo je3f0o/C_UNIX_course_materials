@@ -42,6 +42,19 @@ Operator
     / division
     % modules
 
+    Arithmatic Math operators
+    -------------------------
+    ** exponentiation operator
+
+    // Relational operators
+    > greater
+    < less
+    >= greater than or equal
+    <= less than or equal
+
+
+    // Unary operators
+    // ---------------
     Pointer operators
     -----------------
     DATATYPE * - pointer
